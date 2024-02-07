@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import Header from './component/Header';
 import Main from './page/Main';
 import Footer from './component/Footer';
+import Login from './page/Login';
 
 function App() {
   const [movieData,setMovieData] = useState(null);
@@ -74,11 +75,14 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      {movieData && movieData.results ? (
-        <Main movieData={movieData} popularMovieData={popularMovieData} popularTVData={popularTVData}/>
-      ) : (
-        <p>Loading...</p>
-      )}
+        <Routes>
+          <Route path='/' element= {movieData && movieData.results ? (
+            <Main movieData={movieData} popularMovieData={popularMovieData} popularTVData={popularTVData}/>
+          ) : (
+            <p>Loading...</p>
+          )}></Route>
+          <Route path='/login' element={<Login/>} />
+        </Routes>
       <Footer/>
     </div>
   );

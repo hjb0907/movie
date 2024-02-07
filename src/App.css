@@ -21,11 +21,15 @@ time, mark, audio, video {
 	vertical-align: baseline;
   font-family: 'Noto Sans KR', sans-serif;
 }
-:root {
-  view-transition-name: root;
+
+html{
+  height: 100%;
 }
+
 body {
 	line-height: 1;
+  width: 100%;
+  min-height: 100%;
 }
 a{
   color: #fff; text-decoration: none; outline: none
@@ -34,7 +38,8 @@ a:hover, a:active {
   text-decoration: none; color:#fff; background-color:transparent;
 }
 
-*,table, td, tr, div, select, input[type="text"], input[type="password"], input, textarea, a{    font-family: 'Noto Sans KR', sans-serif;}
+*,table, td, tr, div, select, input[type="text"], input[type="password"], input, textarea, a{    font-family: 'Noto Sans KR', sans-serif;word-break: break-all;
+  word-wrap: break-word; }
 
 p{color: #fff;}
 
@@ -43,9 +48,28 @@ p{color: #fff;}
   width: 100%;
   max-width: 2560px;
   min-width: 375px;
+  height: 100%;
   margin: 0 auto;
   font-family: 'Noto Sans KR', sans-serif;
   background: #1b1b1b;
+  scrollbar-color: #a5a5a5 #1b1b1b;
+}
+
+.App::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+
+.App::-webkit-scrollbar-thumb {
+  height: 8px;
+  border-radius: 0;
+  background-color: #a5a5a5;
+}
+
+.App::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: transparent;
 }
 
 .pos_r{
@@ -293,6 +317,14 @@ p{color: #fff;}
   width: 100%;
   height: 100%;
   background: url('https://www.wavve.com/img/ico-footer-wavve-on.d4912b54.svg')0 0 no-repeat;
+}
+
+.login_wrap{
+  background: #252525;
+  width: 70%;
+  margin: 80px auto;
+  padding: 30px 30px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1000px) {

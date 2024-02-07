@@ -6,7 +6,7 @@ const Header = () =>{
     <div className="header">
         <div className="top">
           <div className="inner">
-          <Link to='/'>로그인</Link>
+          <Link to='/login'>로그인</Link>
           <Link to='/'>이용권</Link>
           <Link to='/'>쿠폰	&#8231;코인</Link>
           <Link to='/'>웨이브온</Link>
