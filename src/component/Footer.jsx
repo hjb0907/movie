@@ -1,21 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FooterSli from "./FooterSli";
 
 const Footer = () =>{
     return(
         <div className="footer">
+            <FooterSli/>
             <div className="inner">
                 <div className="footer_wrap">
                     <div className="left">
                         <div className="col01">
-                            <Link to='/movie'>회사소개</Link>
-                            <Link to='/movie'>인재채용</Link>
-                            <Link to='/movie'>서비스 소개</Link>
-                            <Link to='/movie'>이용약관</Link>
-                            <Link to='/movie'>개인정보 처리방침</Link>
-                            <Link to='/movie'>고객센터</Link>
+                            <Link to='/main'>회사소개</Link>
+                            <Link to='/main'>인재채용</Link>
+                            <Link to='/main'>서비스 소개</Link>
+                            <Link to='/main'>이용약관</Link>
+                            <Link to='/main'>개인정보 처리방침</Link>
+                            <Link to='/main'>고객센터</Link>
                         </div>
-                        <div className="col02">
+                        <div className="col02 draggable">
                             <p>콘텐츠웨이브 주식회사<span></span>대표이사 이태현<span></span> 고객센터 1599-3709 (평일 09:00~18:00 / 점심시간 12:00~13:00 / 주말 및 공휴일 휴무)</p>
                             <p>사업자등록번호 220-88-38020 <span></span> 호스팅서비스제공자 : 마이크로소프트 유한회사, 구글클라우드코리아 유한회사, 아마존웹서비시즈코리아 유한회사</p>
                             <p>
