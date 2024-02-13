@@ -76,7 +76,7 @@ function App() {
     <div className="App">
       <Header/>
         <Routes>
-          <Route path='/movie' element= {movieData && movieData.results ? (
+          <Route path='/' element= {movieData && movieData.results ? (
             <Main movieData={movieData} popularMovieData={popularMovieData} popularTVData={popularTVData}/>
           ) : (
             <p>Loading...</p>

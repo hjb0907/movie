@@ -10,12 +10,12 @@ const Footer = () =>{
                 <div className="footer_wrap">
                     <div className="left">
                         <div className="col01">
-                            <Link to='/movie'>회사소개</Link>
-                            <Link to='/movie'>인재채용</Link>
-                            <Link to='/movie'>서비스 소개</Link>
-                            <Link to='/movie'>이용약관</Link>
-                            <Link to='/movie'>개인정보 처리방침</Link>
-                            <Link to='/movie'>고객센터</Link>
+                            <Link to='/'>회사소개</Link>
+                            <Link to='/'>인재채용</Link>
+                            <Link to='/'>서비스 소개</Link>
+                            <Link to='/'>이용약관</Link>
+                            <Link to='/'>개인정보 처리방침</Link>
+                            <Link to='/'>고객센터</Link>
                         </div>
                         <div className="col02 draggable">
                             <p>콘텐츠웨이브 주식회사<span></span>대표이사 이태현<span></span> 고객센터 1599-3709 (평일 09:00~18:00 / 점심시간 12:00~13:00 / 주말 및 공휴일 휴무)</p>
