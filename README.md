@@ -17,3 +17,9 @@ npm run build
 
 
 npm run deploy
+
+
+render
+component에 routeprops 이외에 다른 props를 넘겨줘야할 때 사용하기 좋은 방법
+
+<Route path="/user/:username" render={(props) => <Component {...props} data={data} />)} />
