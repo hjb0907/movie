@@ -2,7 +2,7 @@
   "name": "movie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hjb0907.github.io/movie/",
+  "homepage": "https://hjb0907.github.io/movie",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
