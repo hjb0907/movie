@@ -20,39 +20,39 @@ const Login = ()=>{
                     </div>
                     <button className="login_btn draggable">로그인</button>
                     <div className="sub_wrap">
-                        <Link to='/main' className="draggable">아이디 찾기</Link>
-                        <Link to='/main' className="draggable">비밀번호 재설정</Link>
-                        <Link to='/main' className="draggable">회원가입</Link>
+                        <Link to='/' className="draggable">아이디 찾기</Link>
+                        <Link to='/' className="draggable">비밀번호 재설정</Link>
+                        <Link to='/' className="draggable">회원가입</Link>
                     </div>
                     <div className="sns_login">
                         <h5 className="draggable">또는 다른 서비스 계정으로 로그인</h5>
                         <ul>
                             <li className="login-sns-each kakao">
-                                <Link to='/main'>
+                                <Link to='/'>
                                     <span className="icon-sns icon-kakao"></span>
                                     <span className="ir_pm">카카오 로그인</span>
                                 </Link>
                             </li>
                             <li className="login-sns-each tworld">
-                                <Link to='/main'>
+                                <Link to='/'>
                                     <span className="icon-sns icon-tworld"></span>
                                     <span className="ir_pm">카카오 로그인</span>
                                 </Link>
                             </li>
                             <li className="login-sns-each naver">
-                                <Link to='/main'>
+                                <Link to='/'>
                                     <span className="icon-sns icon-naver"></span>
                                     <span className="ir_pm">카카오 로그인</span>
                                 </Link>
                             </li>
                             <li className="login-sns-each facebook">
-                                <Link to='/main'>
+                                <Link to='/'>
                                     <span className="icon-sns icon-facebook"></span>
                                     <span className="ir_pm">카카오 로그인</span>
                                 </Link>
                             </li>
                             <li className="login-sns-each apple">
-                                <Link to='/main'>
+                                <Link to='/'>
                                     <span className="icon-sns icon-apple"></span>
                                     <span className="ir_pm">카카오 로그인</span>
                                 </Link>

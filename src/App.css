@@ -338,7 +338,7 @@ img {
   border: none;
   color: #717171;
   padding: 10px 20px 10px 10px;
-
+  margin-top: 10px;
 }
 
 .footer_wrap .right .wave_footer_logo_wrap {
@@ -349,6 +349,7 @@ img {
   line-height: 38px;
   text-align: center;
   background-color: #252525;
+  margin-top: 10px;
 }
 
 .footer_wrap .right .wave_footer_logo_wrap .logo_area{
